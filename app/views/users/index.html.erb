@@ -1,8 +1,6 @@
 <h1>Users</h1>
-<% @user_decorators.each do |user_decorator| %>
+<% @users.each do |user| %>
   <div>
-    <%= user_decorator.name %> <%= user_decorator.mod_badge %> <%= user_decorator.staff_badge %>
+    <%= user.id %>
   </div>
 <% end %>
-
-<%= will_paginate @users %>
