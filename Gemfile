@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'faker', '~> 1.7', '>= 1.7.3'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+
+gem 'draper', '~> 3.0.0.pre1'
+
+gem 'will_paginate'
